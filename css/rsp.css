@@ -177,9 +177,10 @@
     .cnform, .Contact-info {
         height: auto;
         float: left;
-        display: none;
+        filter: initial;
     }
     section.contact .contact-text {
         padding-bottom: 40px;
+        display: none;
       }
 }
