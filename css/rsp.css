@@ -177,6 +177,7 @@
     .cnform, .Contact-info {
         height: auto;
         float: left;
+        display: none;
     }
     section.contact .contact-text {
         padding-bottom: 40px;
