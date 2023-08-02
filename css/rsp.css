@@ -178,4 +178,7 @@
         height: auto;
         float: left;
     }
+    section.contact .contact-text {
+        padding-bottom: 40px;
+      }
 }
