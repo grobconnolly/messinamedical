@@ -176,5 +176,6 @@
     }    
     .cnform, .Contact-info {
         height: auto;
+        float: left;
     }
 }
