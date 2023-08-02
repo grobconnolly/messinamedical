@@ -1,0 +1,180 @@
+
+
+@media screen and (min-width: 768px) {  }
+
+
+@media screen and (max-width: 1080px) {
+    .getstarted {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .getstarted {
+        display: none;
+    }
+    .top-bar .logo img {
+        width: 140px;
+    }
+    .top-bar {
+        padding: 15px 0 15px;
+    }
+    .top-bar .topnavbar {
+        float: right;
+    }
+    .top-bar .topnavbar .navbar-toggle {
+        margin: 0 15px;
+        background-image: url(../images/CloseIcon.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: transparent;
+        border: none;
+        height: 32px;
+        width: 32px;
+    }
+    .top-bar .topnavbar .navbar-toggle.collapsed{
+        background-image: url(../images/NavIcon.png);
+    }
+    .top-bar .topnavbar .navbar-toggle span {
+        display: none;
+    }
+    nav.mynav ul.navbar-nav li a::after{
+        display: none !important;
+    }
+    .top-bar .topnavbar {
+        position: absolute;
+        right: 0;
+        width: 100%;
+        z-index: 9;
+      }
+      nav.mynav .navbar-collapse {
+        padding: 0px;
+        background: #24B6EA;
+        margin-top: 16px;
+      }
+      nav.mynav ul.navbar-nav li a,
+      nav.mynav ul.navbar-nav > .active > a, nav.mynav ul.navbar-nav > .active > a:hover, nav.mynav ul.navbar-nav li a:focus, nav.mynav ul.navbar-nav > .active > a:focus, nav.mynav ul.navbar-nav li a:hover{
+        padding: 15px 30px;
+        border-bottom: 1px solid  #fff;
+        color: #fff;
+      }
+      nav.mynav ul.navbar-nav li:last-child a {
+        border: none;
+    }
+      nav.mynav ul.navbar-nav li {
+        margin-right: 0;
+      }
+      nav.mynav ul.navbar-nav {
+        padding: 0;
+        margin: 0;
+      }
+/* nav end */
+  
+    body h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    body h2 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .hero-container .heroText,.missionText.missionText2 {
+        padding-top: 0px;
+        text-align: center;
+    }
+    .hero-container {
+        background: url(../images/Texture.png) no-repeat left top, #EFF7FC;
+        padding: 20px 0 50px;
+        background-size: 140px;
+    }
+    body p ,ul.features li{
+        font-size: 16px;
+    }
+    body .hero-container .btn.btn-primary {
+        margin-bottom: 60px;
+    }
+    .Our-mission{
+        background-size: 130px;
+    }
+    .classesText {
+        padding-left: 15px;
+    }
+    section.monitoring{
+        padding: 0;
+    }
+    body .working{
+        padding: 20px 15px;
+        min-height: auto;
+    }
+    .working .icon-side img {
+        max-width: 50px;
+        width: 50px;
+    }
+    body .tagCover {
+        max-width: none;
+    }
+    body .tagin{
+        display: block;
+        margin: 15px 10px;
+    }
+    .tagCover .tagin:nth-child(3), .tagCover .tagin:nth-child(4) {
+        width: 40%;
+        display: inline-block;
+    }
+    .Partner-box .btn {
+        display: block;
+        width: 100%;
+    }
+    .Partner-box {
+        background-size: 130px;
+    }
+    .doctorImage {
+        float: left;
+        margin-bottom: 50px;
+    }
+    body .group {
+        margin-top: 30px;
+    }
+    body .group .btn {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0 !important;
+    }
+    .testm-content p{
+        font-size: 18px;
+    }
+    .controls {
+        position: absolute;
+        bottom: 0;
+        width: 100px;
+        height: 80px;
+        left: 40%;
+        right: auto;
+    }
+    .controls > div {
+        width: 32px;
+        height: 32px;
+    }
+    body .swiper{
+        padding-bottom: 100px;
+    }
+    .Testimonials {
+        padding-bottom: 40px;
+    }
+    section.contact h1 {
+        font-weight: 600;
+        font-size: 42px;
+    }
+    section.contact h3{
+        font-size: 32px;
+        font-weight: 500;
+    }
+    body .cnform ,body .Contact-info{
+        padding: 20px;
+        padding-bottom: 50px;
+    }    
+    .cnform, .Contact-info {
+        height: auto;
+    }
+}
