@@ -249,6 +249,10 @@ body span.texture {
   .hero-container .heroText{
     padding-top: 40px;
   }
+  .heroVideo iframe {
+    width: 100%;
+    max-width: 100%;
+  }
   
 /* Mission */
 .Our-mission {
